@@ -10,6 +10,9 @@
 </head>
 
 <body>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5e7v4fars9cG_8icSDleH-dPHwI2Ex0o&callback=initMap">
+    </script>
   <div class="row">
     <div class="col-md-12" id="bar">
       <ul class="nav justify-content-center">
@@ -77,10 +80,22 @@
               <hr>
               <div class="row">
                 <div class="col-md-12">
-                  <iframe width="100%" height="450" style="border:0" loading="lazy" allowfullscreen
-                    referrerpolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps/embed/v1/view?key=AIzaSyC5e7v4fars9cG_8icSDleH-dPHwI2Ex0o&center=-33.45694,-70.64827&zoom=14">
-                  </iframe>
+                  <div id="map"></div>
+                  <script>
+                    function initMap() {
+                      var location = { lat: -33.7221211055955, lng: -70.68010821307992 };
+                      var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 15,
+                        center: location
+                      });
+                      var marker = new google.maps.Marker({
+                        position: location,
+                        map: map,
+                        title: 'Ubicación'
+                      });
+                    }
+                  </script>
+
                 </div>
               </div>
             </div>
@@ -92,21 +107,6 @@
     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
   </div>
 
-  <!-- <div class="card">
-    <div class="card-body">
-      <h1 class="card-title">Ceremonia</h1>
-      <hr>
-      <h4 class="card-title">Web: <a href="">Web del sitio.</a></h4>
-      <h4 class="card-title">Fecha: 12 de Abril del 2025 </h4>
-      <h4 class="card-title">Ubicación: 12 de Abril del 2025 </h4>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="../images/imagenIzquierda.jpg" alt="">
-        </div>
-        <div class="col-md-6">
-          <img src="../images/imagenDerecha.jpg" alt="">
-      </div>
-    </div> -->
 
 
 
@@ -149,8 +149,6 @@
       </div>
     </div>
   </footer>
-
-
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
