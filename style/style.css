@@ -1,3 +1,26 @@
-img{
-    width: 100%;
+.custom-height {
+    height: 60vh;
+    object-fit: cover; 
+    width: 100%; 
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+  padding: 2rem 0;
+  background-color: white;
+ 
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+
+.copyright {
+  color:black;
+}
+
