@@ -12,7 +12,7 @@
 <body>
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5e7v4fars9cG_8icSDleH-dPHwI2Ex0o&callback=initMap">
-    </script>
+</script>
   <div class="row">
     <div class="col-md-12" id="bar">
       <ul class="nav justify-content-center">
@@ -76,26 +76,19 @@
             <div class="card-body">
               <h1 class="card-title">Ubicación</h1>
               <hr>
-              <h4 class="card-title">Ubicación</h4>
+              <h4 class="card-title">Viña Santa Rita</h4>
               <hr>
               <div class="row">
                 <div class="col-md-12">
-                  <div id="map"></div>
-                  <script>
-                    function initMap() {
-                      var location = { lat: -33.7221211055955, lng: -70.68010821307992 };
-                      var map = new google.maps.Map(document.getElementById('map'), {
-                        zoom: 15,
-                        center: location
-                      });
-                      var marker = new google.maps.Marker({
-                        position: location,
-                        map: map,
-                        title: 'Ubicación'
-                      });
-                    }
-                  </script>
-
+                  <iframe
+                  width="100%"
+                  height="450"
+                  style="border:0"
+                  loading="lazy"
+                  allowfullscreen
+                  referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps/embed/v1/view?key=AIzaSyC5e7v4fars9cG_8icSDleH-dPHwI2Ex0o&center=-33.7221211055955,-70.68010821307992&zoom=15">
+              </iframe>
                 </div>
               </div>
             </div>
