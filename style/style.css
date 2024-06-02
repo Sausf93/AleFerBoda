@@ -11,8 +11,7 @@ a{
 
 footer {
   padding: 2rem 0;
-  background-color: white;
- 
+  background-color: #F7F5F2;
 }
 
 ul.social-buttons {
@@ -24,3 +23,19 @@ ul.social-buttons {
   color:black;
 }
 
+#bar{
+    background-color: #F7F5F2;
+}
+
+button{
+    color: #F7F5F2;
+}
+
+button:hover{
+    background-color: #F7F5F2;
+    color: black;
+}
+
+.card-title{
+    font-family: 'Times New Roman', Times, serif;
+}
