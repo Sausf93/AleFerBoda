@@ -11,7 +11,7 @@ a{
 
 footer {
   padding: 2rem 0;
-  background-color: #F7F5F2;
+  background-color: #ebddca;
 }
 
 ul.social-buttons {
@@ -24,18 +24,59 @@ ul.social-buttons {
 }
 
 #bar{
-    background-color: #F7F5F2;
+    background-color: #ebddca;
 }
 
-button{
-    color: #F7F5F2;
-}
 
-button:hover{
-    background-color: #F7F5F2;
-    color: black;
-}
 
 .card-title{
     font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+  border-radius: 1em;
+}
+
+.btn-mi-color-personalizado {
+  background-color: white; /* Fondo blanco */
+  color: #0a0a0a; /* Texto verde */
+  border: 2px solid #ebddca; /* Borde verde */
+}
+
+.btn-mi-color-personalizado:hover,
+.btn-mi-color-personalizado.active,
+.btn-mi-color-personalizado:active,
+.btn-mi-color-personalizado.show {
+  background-color: #ebddca; /* Fondo verde */
+  color: rgb(24, 23, 23); /* Texto blanco */
+  border-color: #ebddca; /* Borde verde */
+}
+
+.logo img {
+  margin-left: 10px;
+  margin-top: 5px;
+  max-height: 40px; /* Ajusta la altura de la imagen */
+}
+
+li{
+  margin-right: 3em;
+}
+h1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h5{
+  text-align:justify ;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.pre{
+  text-align: center;
 }
