@@ -1,20 +1,21 @@
 .custom-height {
-    height: 60vh;
-    object-fit: cover; 
-    width: 100%; 
+  height: 60vh;
+  object-fit: cover;
+  width: 100%;
 }
 
-.col-md-12{
+.col-md-12 {
   padding-right: 0px;
   padding-left: 0px;
 }
-.row{
-  margin:0;
+
+.row {
+  margin: 0;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
 footer {
@@ -22,9 +23,10 @@ footer {
   background-color: #ebddca;
 }
 
-.navbar{
+.navbar {
   background-color: #ebddca;
 }
+
 
 ul.social-buttons {
   margin-bottom: 0;
@@ -32,67 +34,102 @@ ul.social-buttons {
 
 
 .copyright {
-  color:black;
+  color: black;
 }
 
-#bar{
-    background-color: #ebddca;
+#bar {
+  background-color: #ebddca;
 }
 
-
-
-.card-title{
-    font-family: 'Times New Roman', Times, serif;
+.card-title {
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.btn{
+.btn {
   border-radius: 1em;
 }
 
 .btn-mi-color-personalizado {
-  background-color: white; /* Fondo blanco */
-  color: #0a0a0a; /* Texto verde */
-  border: 2px solid #ebddca; /* Borde verde */
+  background-color: white;
+  /* Fondo blanco */
+  color: #0a0a0a;
+  /* Texto verde */
+  border: 2px solid #ebddca;
+  /* Borde verde */
 }
 
 .btn-mi-color-personalizado:hover,
 .btn-mi-color-personalizado.active,
 .btn-mi-color-personalizado:active,
 .btn-mi-color-personalizado.show {
-  background-color: #ebddca; /* Fondo verde */
-  color: rgb(24, 23, 23); /* Texto blanco */
-  border-color: #ebddca; /* Borde verde */
+  background-color: #ebddca;
+  /* Fondo verde */
+  color: rgb(24, 23, 23);
+  /* Texto blanco */
+  border-color: #ebddca;
+  /* Borde verde */
 }
 
 .logo img {
   margin-left: 10px;
   margin-top: 5px;
-  max-height: 40px; /* Ajusta la altura de la imagen */
+  max-height: 40px;
+  /* Ajusta la altura de la imagen */
 }
 
-li{
+li {
   margin-right: 3em;
 }
-h1{
+
+h1 {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
-p{
+p {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
-h5{
-  text-align:justify ;
+h5 {
+  text-align: justify;
   font-family: 'Times New Roman', Times, serif;
 
 }
 
-.pre{
+.pre {
   text-align: center;
 }
 
-nav{
+nav {
   padding: 0;
+}
+
+@media (768px <=width <=1079px) {
+  .navbar.navbar-expand-lg~.row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .col-12.col-md-6 {
+    width: 550px;
+  }
+
+ .row > .col-md-6{
+    width: 550px;
+  } 
+  .row > .col-md-6 > h5{
+    text-align: justify !important;
+  }
+
+  #confirm {
+    display: grid;
+    grid-column-start: 2;
+  }
+
+  #confirm h1{
+    margin:0;
+  }
+
+
 }
