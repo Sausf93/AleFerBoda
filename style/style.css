@@ -88,3 +88,79 @@ h5{
 nav{
   padding: 0;
 }
+
+.background-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5; /* Ajusta la opacidad del fondo */
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.overlay-image {
+  opacity: 0.8; /* Ajusta la opacidad de la imagen superpuesta */
+}
+
+.overlay-button {
+  position: absolute;
+  top: 50%; /* Ajusta la posición del botón */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3; /* Asegura que el botón esté en frente de las imágenes */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.overlay-button:hover {
+  background-color: rgba(0, 0, 0, 0.9); /* Cambia el fondo al pasar el ratón */
+}
+
+.image-and-map {
+  display: flex;
+  gap: 20px; /* Espacio entre la imagen y el iframe */
+  align-items: flex-start; /* Alinea la imagen y el iframe al inicio */
+}
+
+.image-container {
+  width: 50%; /* Ambos elementos ocupan el 50% del ancho del contenedor */
+}
+
+.image {
+  width: 100%;
+  height: 450px; /* Fijamos la altura de la imagen para que coincida con la del iframe */
+  object-fit: cover; /* Aseguramos que la imagen se ajuste bien al contenedor */
+}
+
+.map-iframe {
+  width: 50%; /* Ambos elementos ocupan el 50% del ancho del contenedor */
+  height: 450px; /* Altura fija para el mapa */
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
