@@ -1,3 +1,5 @@
+
+
 .custom-height {
   height: 60vh;
   object-fit: cover;
@@ -20,11 +22,11 @@ a {
 
 footer {
   padding: 2rem 0;
-  background-color: #ebddca;
+  background-color: #DFC88D;
 }
 
 .navbar {
-  background-color: #ebddca;
+  background-color: #DFC88D;
 }
 
 
@@ -50,7 +52,7 @@ ul.social-buttons {
 }
 
 .btn-mi-color-personalizado {
-  background-color: white;
+  background-color: #DFC88D;
   /* Fondo blanco */
   color: #0a0a0a;
   /* Texto verde */
