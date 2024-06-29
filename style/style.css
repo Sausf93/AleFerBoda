@@ -188,16 +188,9 @@ h5 {
   /* Cambia el fondo al pasar el ratón */
 }
 
-.image-and-map {
-  display: flex;
-  gap: 20px;
-  /* Espacio entre la imagen y el iframe */
-  align-items: flex-start;
-  /* Alinea la imagen y el iframe al inicio */
-}
 
 .image-container {
-  width: 50%;
+  width: 100%;
   /* Ambos elementos ocupan el 50% del ancho del contenedor */
 }
 
@@ -210,7 +203,7 @@ h5 {
 }
 
 .map-iframe {
-  width: 50%;
+  width: 100%;
   /* Ambos elementos ocupan el 50% del ancho del contenedor */
   height: 450px;
   /* Altura fija para el mapa */
