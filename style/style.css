@@ -1,8 +1,19 @@
 .navbar-custom {
-  background-color: rgba(0, 0, 0, 0.0); 
+  background-color: transparent; 
   position: absolute; 
   width: 100%;
   z-index: 10; 
+}
+
+.custom-navbar-collapse {
+  background-color: transparent !important; /* Fondo transparente para menú desplegado */
+  transition: background-color 0.001s ease; /* Transición suave del fondo */
+}
+
+
+
+.custom-navbar-collapse.show {
+  background-color: #DFC88D !important; /* Fondo beige cuando el menú está colapsado */
 }
 
 .navbar-custom .nav-link {
@@ -283,6 +294,9 @@ tr{
   margin-bottom: 5px;
 }
 
-.custom-navbar-collapse {
-  background-color: #DFC88D; /* Color de fondo beige */
-}
+
+    .custom-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
