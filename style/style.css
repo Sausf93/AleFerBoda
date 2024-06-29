@@ -10,8 +10,6 @@
   transition: background-color 0.001s ease; /* Transición suave del fondo */
 }
 
-
-
 .custom-navbar-collapse.show {
   background-color: #DFC88D !important; /* Fondo beige cuando el menú está colapsado */
 }
@@ -199,6 +197,11 @@ h5 {
   /* Cambia el fondo al pasar el ratón */
 }
 
+#abcd {
+  width: 100% !important;
+  max-width: 100% !important;
+  object-fit: contain !important; /* Ajusta la imagen manteniendo la proporción */
+}
 
 .image-container {
   width: 100%;
