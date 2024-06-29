@@ -250,3 +250,35 @@ p{
 .champan{
   width: 90%;
 }
+
+/* Estilo para la lista desordenada */
+.custom-list {
+  list-style-type: none; /* Oculta los puntos de la lista */
+  padding-left: 0; /* Elimina el espacio a la izquierda de la lista */
+}
+
+.custom-list li {
+  position: relative; /* Posición relativa para permitir posicionamiento absoluto de la imagen */
+  padding-left: 40px; /* Espacio a la izquierda para el texto */
+  margin-bottom: 20px; /* Espacio entre elementos de la lista */
+  line-height: 1.5; /* Espacio entre líneas de texto */
+}
+
+.custom-list li .list-icon {
+  width: 200px; /* Ancho fijo para la imagen del icono */
+  height: auto; /* Altura automática para mantener la proporción */
+  position: absolute; /* Posición absoluta para el icono */
+  left: -40px; /* Ajuste para alinear con el inicio del texto */
+  top: 50%; /* Alinea verticalmente al centro */
+  transform: translateY(-50%); /* Corrige la alineación vertical */
+}
+
+/* Estilo para la imagen que se superpone */
+.image-overlay {
+  max-width: 100%; /* Ancho máximo para la imagen */
+  display: block; /* Asegura que la imagen sea un elemento de bloque */
+}
+
+tr{
+  margin-bottom: 5px;
+}
