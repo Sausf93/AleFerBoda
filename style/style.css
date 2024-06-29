@@ -282,3 +282,7 @@ p{
 tr{
   margin-bottom: 5px;
 }
+
+.custom-navbar-collapse {
+  background-color: #DFC88D; /* Color de fondo beige */
+}
