@@ -199,6 +199,7 @@ h5 {
 
 #abcd {
   width: 100% !important;
+  height: auto !important;
   max-width: 100% !important;
   object-fit: contain !important; /* Ajusta la imagen manteniendo la proporción */
 }
