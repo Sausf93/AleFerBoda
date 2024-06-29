@@ -10,6 +10,8 @@
   transition: background-color 0.001s ease; /* Transición suave del fondo */
 }
 
+
+
 .custom-navbar-collapse.show {
   background-color: #DFC88D !important; /* Fondo beige cuando el menú está colapsado */
 }
@@ -24,12 +26,6 @@
 
 .banner {
   position: relative;
-}
-
-#abcd{
-  -webkit-width:100%;
-  -webkit-height: auto;
-  -webkit-object-fit: cover;
 }
 
 .navbar-nav {
