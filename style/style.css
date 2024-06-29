@@ -197,6 +197,15 @@ h5 {
   /* Cambia el fondo al pasar el ratón */
 }
 
+#abcd {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100%;
+  object-fit: cover;
+  padding:0;
+  margin: 0;
+}
+
 .image-container {
   width: 100%;
   /* Ambos elementos ocupan el 50% del ancho del contenedor */
